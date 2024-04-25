@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(106, 231, 106);
+    margin-left: 35px;
+    margin-right: 35px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.all-form {
+    background-color: white;
+    height: 80vh;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: normal;
+}
+ 
+.input-field {
+    margin-left: 650px;
+
+}
+.select-options {
+    margin-left: 500px;
+}
+
+.radio-container {
+    position: relative;
+    left: 300px;
+    bottom: 35px;
+}
+
+.select-fcc {
+    position: relative;
+    left: 85px;
+}
+
+.checkbox-container {
+    position: relative;
+    left: 300px;
+    bottom: 35px;
+}
+button {
+    position: relative;
+    left: 700px;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: rgb(106, 231, 106);
+    cursor: pointer;
+}
