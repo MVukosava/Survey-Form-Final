@@ -11,71 +11,72 @@
 </head>
 
 <body>
-    <h1>Survey Form</h1>
-    <form id="survey-form">
-        <div class="all-form">
-            <h3>Let Us Know How We Can Improve freeCodeCamp</h3>
+    <form action="https://en55xckbdcflt.x.pipedream.net" method="post">
+        <h1>Survey Form</h1>
+        <form id="survey-form">
+            <div class="all-form">
+                <h3>Let Us Know How We Can Improve freeCodeCamp</h3>
 
-            <div class="input-field">
-                <label for="Name">Name:</label>
-                <input type="text" id="name" placeholder="Enter your name"> <br>
-                <br>
-                <label for="Email">Email:</label>
-                <input type="text" id="email" placeholder="Enter your Email"> <br>
-                <br>
-                <label for="Age">Age:</label>
-                <input type="number" id="age" placeholder="Age">
-            </div>
-
-            <br>
-            <div class="select-options">
-                <label for="Select the role">Which options best describe your current role?</label>
-                <select name="Options" id="Options">
-                    <option value="Student">Student</option>
-                    <option value="Master">Master</option>
-                    <option value="PhD">PhD</option>
-
-                </select>
-                <br>
-                <br>
-                <label for="Recommendation">How likely is that you would recommend <br> freeCodeCamp to your
-                    friend?</label>
-                <br>
-                <div class="radio-container">
-                    <input type="radio" name="radio-button">
-                    <label for="">Definitely</label> <br>
-                    <input type="radio" name="radio-button">
-                    <label for="">Maybe</label> <br>
-                    <input type="radio" name="radio-button">
-                    <label for="">Not sure</label>
+                <div class="input-field">
+                    <label for="Name">Name:</label>
+                    <input type="text" name="user" id="name" placeholder="Enter your name"> <br>
+                    <br>
+                    <label for="Email">Email:</label>
+                    <input type="email" name="email address" id="email" placeholder="Enter your Email"> <br>
+                    <br>
+                    <label for="Age">Age:</label>
+                    <input type="number" name="user age" min="0" id="age" placeholder="Age">
                 </div>
+
                 <br>
-                <div class="select-fcc">
-                    <label for="Select FCC">What do you like the most it FCC:</label>
-                    <select name="fcc" id="fcc">
-                        <option value="HTML">HTML</option>
-                        <option value="CSS">CSS</option>
-                        <option value="Java Script">Java Script</option>
+                <div class="select-options">
+                    <label for="Select the role">Which options best describe your current role?</label>
+                    <select name="Options" id="Options">
+                        <option value="Student">Student</option>
+                        <option value="Master">Master</option>
+                        <option value="PhD">PhD</option>
 
                     </select>
-                </div>
-                <br>
-                <br>
-                <label for="Improvment">Things that shoud be improvment in the future <br> (Check all that
-                    applay):</label>
-                <div class="checkbox-container">
-                    <input type="checkbox">
-                    <label for="">Front-end Project</label> <br>
-                    <input type="checkbox">
-                    <label for="">Back-end Project</label> <br>
-                    <input type="checkbox">
-                    <label for="">Data Visualization</label>
-                </div>
+                    <br>
+                    <br>
+                    <label for="Recommendation">How likely is that you would recommend <br> freeCodeCamp to your
+                        friend?</label>
+                    <br>
+                    <div class="radio-container">
+                        <input type="radio" id="definitely option" name="definitely">
+                        <label for="">Definitely</label> <br>
+                        <input type="radio" name="maybe" id="maybe option">
+                        <label for="">Maybe</label> <br>
+                        <input type="radio" name="not sure" id="not sure option">
+                        <label for="">Not sure</label>
+                    </div>
+                    <br>
+                    <div class="select-fcc">
+                        <label for="Select FCC">What do you like the most it FCC:</label>
+                        <select name="fcc option" id="fcc">
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="Java Script">Java Script</option>
 
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <label for="Improvment">Things that shoud be improvment in the future <br> (Check all that
+                        applay):</label>
+                    <div class="checkbox-container">
+                        <input type="checkbox" name="fronted" id="front">
+                        <label for="">Front-end Project</label> <br>
+                        <input type="checkbox" name="backend" id="back">
+                        <label for="">Back-end Project</label> <br>
+                        <input type="checkbox" name="data vizualization" id="date">
+                        <label for="">Data Visualization</label>
+                    </div>
+
+                </div>
+                <button type="submit">Submit</button>
             </div>
-
-            <button type="submit">Submit</button>
-        </div>
+        </form>
     </form>
 
 </body>
